@@ -1,12 +1,5 @@
-FROM node:20-alpine
+FROM flowiseai/flowise:1.6.2
+# See https://github.com/FlowiseAI/Flowise/issues/2064
+CMD /usr/local/bin/npx flowise start
 
-WORKDIR /app/src
-COPY . /app/src
-
-RUN npm install
-
-RUN chown -R node:node /app
-
-USER node
-
-ENTRYPOINT /app/src/entrypoint.sh
+EXPOSE 3000
