@@ -1,3 +1,15 @@
+# v0.0.2 (Sun Apr 07 2024)
+
+#### ⚠️ Pushed to `main`
+
+- flowise ([@chrisjsimpson](https://github.com/chrisjsimpson))
+
+#### Authors: 1
+
+- [@chrisjsimpson](https://github.com/chrisjsimpson)
+
+---
+
 # v0.0.1 (Sun Apr 07 2024)
 
 :tada: This release contains work from a new contributor! :tada:
